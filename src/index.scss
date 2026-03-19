@@ -1,0 +1,35 @@
+// Configure IBM Plex font path
+@use '@carbon/react/scss/config' with (
+  $font-path: '@ibm/plex'
+);
+
+// Configure Carbon to use Gray 90 theme
+@use '@carbon/react/scss/themes';
+@use '@carbon/react/scss/theme' with (
+  $theme: themes.$g90
+);
+
+// Import all Carbon styles
+@use '@carbon/react';
+
+// Include type utility classes (including .cds--type-serif)
+@use '@carbon/react/scss/type';
+@include type.type-classes;
+
+// Import IBM Products styles (must come after @use statements)
+@import '@carbon/ibm-products/css/index-without-carbon.css';
+
+
+// Global styles
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: theme.$background;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+// Made with Bob
