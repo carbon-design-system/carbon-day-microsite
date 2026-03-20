@@ -79,14 +79,14 @@ function Home() {
                       </div>
                     </div>
 
-                    <h2 className="agenda-section__title cds--type-heading-02">Deep dives & hands-on labs</h2>
-
                     <div className="agenda-item agenda-item--break">
                       <div className="agenda-item__time">1:00pm–1:45pm</div>
                       <div className="agenda-item__content">
                         <h3 className="agenda-item__heading agenda-item__heading--italic">Lunch break</h3>
                       </div>
                     </div>
+
+                    <h2 className="agenda-section__title cds--type-heading-02">Deep dives & hands-on labs</h2>
 
                     <div className="agenda-item">
                       <div className="agenda-item__time">1:45pm–2:00pm</div>
