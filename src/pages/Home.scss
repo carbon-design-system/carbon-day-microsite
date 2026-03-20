@@ -139,6 +139,22 @@
   }
 }
 
+.agenda-note {
+  padding: $spacing-05;
+  background-color: $layer-accent-01;
+  border-bottom: 1px solid $border-subtle;
+
+  &__text {
+    @include type-style('body-02');
+    color: $text-primary;
+    margin: 0;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+}
+
 .agenda-item {
   display: flex;
   gap: $spacing-06;

@@ -33,10 +33,10 @@ function Home() {
               <TabPanels>
                 <TabPanel className="agenda-tab-panel">
                   <div className="agenda-section">
-                        <h2 className="agenda-section__title cds--type-heading-02">Roadmap & strategy</h2>
+                    <h2 className="agenda-section__title cds--type-heading-02">Roadmap & strategy</h2>
                     
                     <div className="agenda-item">
-                      <div className="agenda-item__time">10:00–10:45am</div>
+                      <div className="agenda-item__time">10:00am–10:45am</div>
                       <div className="agenda-item__content">
                         <h3 className="agenda-item__heading">The future of consumable software</h3>
                         <p className="agenda-item__description">Carbon's 2026 strategy</p>
@@ -44,34 +44,35 @@ function Home() {
                     </div>
 
                     <div className="agenda-item">
-                      <div className="agenda-item__time">10:45–11:00am</div>
+                      <div className="agenda-item__time">10:45am–11:00am</div>
                       <div className="agenda-item__content">
-                        <h3 className="agenda-item__heading">Story: Adopting Carbon</h3>
-                        <p className="agenda-item__description">SevOne's Journey</p>
+                        <h3 className="agenda-item__heading">Story: Building a Native Carbon Experience</h3>
+                        <p className="agenda-item__description">Concert's Journey</p>
                       </div>
                     </div>
 
                     <div className="agenda-item agenda-item--break">
-                      <div className="agenda-item__time">11:00–11:15am</div>
+                      <div className="agenda-item__time">11:00am–11:15am</div>
                       <div className="agenda-item__content">
                         <h3 className="agenda-item__heading agenda-item__heading--italic">Break</h3>
                       </div>
                     </div>
 
                     <div className="agenda-item">
-                      <div className="agenda-item__time">11:15–12:00pm</div>
+                      <div className="agenda-item__time">11:15am–12:00pm</div>
                       <div className="agenda-item__content">
-                        <h3 className="agenda-item__heading">Recent releases</h3>
-                        <p className="agenda-item__description">Carbon Autotrack</p>
-                        <p className="agenda-item__description">AI Chat</p>
-                        <p className="agenda-item__description">Page Header</p>
-                        <p className="agenda-item__description">What's new</p>
-                        <p className="agenda-item__description">... and more</p>
+                        <h3 className="agenda-item__heading">Recent Releases</h3>
+                        <p className="agenda-item__description">– Carbon Autotrack</p>
+                        <p className="agenda-item__description">– AI Chat</p>
+                        <p className="agenda-item__description">– Page Header</p>
+                        <p className="agenda-item__description">– What's new</p>
+                        <p className="agenda-item__description">– Onboarding & first-time orientation</p>
+                        <p className="agenda-item__description">– ... and more</p>
                       </div>
                     </div>
 
                     <div className="agenda-item">
-                      <div className="agenda-item__time">12:00–1:00pm</div>
+                      <div className="agenda-item__time">12:00pm–1:00pm</div>
                       <div className="agenda-item__content">
                         <h3 className="agenda-item__heading">Open panel / QnA</h3>
                         <p className="agenda-item__description">Get all your questions answered by Carbon experts</p>
@@ -81,22 +82,14 @@ function Home() {
                     <h2 className="agenda-section__title cds--type-heading-02">Deep dives & hands-on labs</h2>
 
                     <div className="agenda-item agenda-item--break">
-                      <div className="agenda-item__time">1–1:45pm</div>
+                      <div className="agenda-item__time">1:00pm–1:45pm</div>
                       <div className="agenda-item__content">
                         <h3 className="agenda-item__heading agenda-item__heading--italic">Lunch break</h3>
                       </div>
                     </div>
 
                     <div className="agenda-item">
-                      <div className="agenda-item__time">1:45–2:30pm</div>
-                      <div className="agenda-item__content">
-                        <h3 className="agenda-item__heading">Development with AI: Carbon MCP + Bob</h3>
-                        <p className="agenda-item__description">A new way of building and prototyping with Carbon</p>
-                      </div>
-                    </div>
-
-                    <div className="agenda-item">
-                      <div className="agenda-item__time">2:30-2:45pm</div>
+                      <div className="agenda-item__time">1:45pm–2:00pm</div>
                       <div className="agenda-item__content">
                         <h3 className="agenda-item__heading">Accessible experiences with Carbon</h3>
                         <p className="agenda-item__description">Overview of accessibility compliance</p>
@@ -104,7 +97,15 @@ function Home() {
                     </div>
 
                     <div className="agenda-item">
-                      <div className="agenda-item__time">2:45–3.15pm</div>
+                      <div className="agenda-item__time">2:00pm–3:00pm</div>
+                      <div className="agenda-item__content">
+                        <h3 className="agenda-item__heading">Zero to integrated: Accelerating workflows with Carbon MCP</h3>
+                        <p className="agenda-item__description">Ship faster with AI connected Design, Dev, and PM Tools</p>
+                      </div>
+                    </div>
+
+                    <div className="agenda-item">
+                      <div className="agenda-item__time">3:00pm–3.15pm</div>
                       <div className="agenda-item__content">
                         <h3 className="agenda-item__heading">Carbon 101</h3>
                         <p className="agenda-item__description">Get to know the basics of Carbon</p>
@@ -112,10 +113,10 @@ function Home() {
                     </div>
 
                     <div className="agenda-item">
-                      <div className="agenda-item__time">3.15–4pm</div>
+                      <div className="agenda-item__time">3.15pm–4pm</div>
                       <div className="agenda-item__content">
                         <h3 className="agenda-item__heading">Social breakout (Design & Development)</h3>
-                        <p className="agenda-item__description">Discipline-focused conversation</p>
+                        <p className="agenda-item__description">Hands-on discipline-focused conversation</p>
                       </div>
                     </div>
                   </div>
@@ -128,9 +129,9 @@ function Home() {
                         <ul className="resources-links__list">
                           <li><a href="https://carbondesignsystem.com" className="resources-links__link">Carbondesignsystem.com</a></li>
                           <li><a href="https://carbondesignsystem.com/developing/frameworks/react" className="resources-links__link">Carbon for Products</a></li>
-                          <li><a href="https://carbondesignsystem.com/developing/carbon-labs" className="resources-links__link">Carbon Labs</a></li>
-                          <li><a href="https://github.com/carbon-design-system/carbon/blob/main/.github/CONTRIBUTING.md" className="resources-links__link">Contribution guide</a></li>
-                          <li><a href="https://github.com/carbon-design-system/carbon/wiki/TCAP-award-info" className="resources-links__link">TCAP award info</a></li>
+                          <li><a href="https://carbondesignsystem.com/contributing/get-started/overview/#carbon-labs" className="resources-links__link">Carbon Labs</a></li>
+                          <li><a href="https://carbondesignsystem.com/contributing/get-started/overview/" className="resources-links__link">Contribution guide</a></li>
+                          <li><a href="https://w3.ibm.com/w3publisher/ctr/corporate-technical-recognition-ctr/tcap/eligibility" className="resources-links__link">TCAP award info</a></li>
                         </ul>
                       </div>
                       <div className="resources-links__column">
@@ -139,9 +140,11 @@ function Home() {
                           Slack channels
                         </h2>
                         <ul className="resources-links__list">
-                          <li><a href="#" className="resources-links__link">#carbon-design-system</a></li>
-                          <li><a href="#" className="resources-links__link">#carbon-for-ibmproducts</a></li>
-                          <li><a href="#" className="resources-links__link">#carbon-for-ai</a></li>
+                          <li><a href="https://ibm.enterprise.slack.com/archives/C0M053VPT" className="resources-links__link">#carbon-design-system</a></li>
+                          <li><a href="https://ibm.enterprise.slack.com/archives/CQGR0HC05" className="resources-links__link">#carbon-for-ibmproducts</a></li>
+                          <li><a href="https://ibm.enterprise.slack.com/archives/C0603LZUKRV" className="resources-links__link">#carbon-for-ai</a></li>
+                          <li><a href="https://ibm.enterprise.slack.com/archives/C2K6RFJ1G" className="resources-links__link">#carbon-react</a></li>
+                          <li><a href="https://ibm.enterprise.slack.com/archives/CL83LMKSA" className="resources-links__link">#carbon-web-components</a></li>
                         </ul>
                       </div>
                     </div>
@@ -191,6 +194,47 @@ function Home() {
                           <p className="accordion-content__text">
                             More coming soon!
                           </p>
+                        </AccordionItem>
+                        <AccordionItem title="Figma Make">
+                          <p className="accordion-content__text">
+                            Figma Make is an AI-powered tool that helps designers and developers bridge the gap between design and code. It analyzes Figma designs and generates production-ready code using Carbon components.
+                          </p>
+                          <h4 className="accordion-content__subheading">Why it's helpful:</h4>
+                          <ul className="accordion-content__list">
+                            <li><strong>For Designers:</strong> Validate that your designs can be built with Carbon components before handoff to development.</li>
+                            <li><strong>For Developers:</strong> Get a head start on implementation with AI-generated code that uses proper Carbon components and patterns.</li>
+                            <li><strong>Faster Handoff:</strong> Reduce the time between design and development by automating the initial code generation.</li>
+                            <li><strong>Carbon-Aware:</strong> Generates code that follows Carbon best practices and uses the correct component APIs.</li>
+                          </ul>
+                          <h4 className="accordion-content__subheading">Getting Started:</h4>
+                          <div className="accordion-content__actions">
+                                <div className="accordion-content__actions accordion-content__actions--stacked">
+                                  <Link
+                                    href="https://figma.com/make/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    renderIcon={ArrowUpRight}
+                                  >
+                                Visit Figma Make
+                              </Link>
+                              <Link
+                                href="https://carbondesignsystem.com/developing/carbon-mcp/onboarding-and-setup/#step-3:-connecting-to-ibm-bob-and-other-mcp-clients"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                renderIcon={ArrowUpRight}
+                              >
+                                Configure Carbon MCP with Figma Make
+                              </Link>
+                            </div>
+                            <Link
+                              href="https://carbondesignsystem.com/developing/carbon-mcp/onboarding-and-setup/#step-3:-connecting-to-ibm-bob-and-other-mcp-clients"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              renderIcon={ArrowUpRight}
+                            >
+                              Configure Carbon MCP with Figma Make
+                            </Link>
+                          </div>
                         </AccordionItem>
                         <AccordionItem title="Other relevant tools">
                           <p className="accordion-content__text">
@@ -278,7 +322,7 @@ function Home() {
                         <p className="survey-section__description">
                           Your perspective is essential. If you have just a moment, please share your thoughts in our quick survey. Your ideas, preferences, and feedback will directly influence future Carbon Days as well as Carbon overall.
                         </p>
-                        <Link href="#" className="survey-section__link">Take the survey</Link>
+                        <Link href="https://your.feedback.ibm.com/jfe/form/SV_6qUJWWGjZ2qdfUi" target="_blank" rel="noopener noreferrer" className="survey-section__link">Take the survey</Link>
                       </Column>
                     </Grid>
                   </div>
