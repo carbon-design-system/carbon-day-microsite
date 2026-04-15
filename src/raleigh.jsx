@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Theme } from '@carbon/react'
-import Home from './pages/Home.jsx'
+import Raleigh from './pages/Raleigh.jsx'
 import './index.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Theme theme="g100">
-      <Home />
+      <Raleigh />
     </Theme>
   </React.StrictMode>,
 )
